@@ -8,6 +8,6 @@ public class ExporterFactory implements Exporter{
 
     @Override
     public String export(String message) {
-        return null;
+        return message;
     }
 }
